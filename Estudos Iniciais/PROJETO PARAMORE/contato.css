@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(./photos/desfoque.jpg);
+    background-size: cover;
+    margin-top: 40px;
+
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.caixa {
+    width: 500px;
+    height: 570px;
+    background-color: #433e35;
+    border-radius: 15px;
+
+}
+
+
+form {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+
+h1 {
+    display: flex;
+    color: #141310;
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    
+}
+
+
+.label-name  {
+    font-size: 20px;
+    margin-right: 350px;
+    color: #141310;
+
+}
+
+
+.label-email  {
+    font-size: 20px;
+    margin-right: 350px;
+    margin-top: 15px;
+    color: #141310;
+}
+
+#name {
+    width: 400px;
+    height: 30px;
+    font-size: large;
+    font-size: 16px;
+    outline: unset;
+}
+
+#email {
+        width: 400px;
+        height: 30px;
+        font-size: large;
+        font-size: 16px;
+        margin-bottom: 2px;
+        outline: unset;
+    }
+
+textarea {
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    margin-bottom: 10px;
+    outline: unset;
+
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    background-color: #22201d;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-display: flex;
+    margin-bottom: 35px;
+
+}
+
+@media(max-width:768px) {
+    
+    
+    body {
+        margin: 0%;
+        background-size: 100px;
+        background-size: contain;
+       
+    }
+
+
+    .container {
+        width: 90vw;
+        height: 550px;
+
+    }
+
+    .caixa {
+        width: 100%;
+        height: 105%;
+        margin-left: 40px;
+        margin-top: 15px;
+    }
+
+    form {
+        width: 100%; 
+        margin-top: 50px;
+        margin: 0%;
+    } 
+    
+    h1 {
+        font-size: 38px;
+      
+    
+    }
+
+    #name {
+        width: 300px;
+    }
+
+    #email {
+        width: 300px;
+    }
+
+    .label-name {
+        margin-left: 95px;
+    }
+
+    .label-email {
+        margin-left: 95px;
+    }
+
+    textarea{
+        width: 300px;
+    }
+
+    button {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    } 
+
+}
+

@@ -1,0 +1,17 @@
+body {
+    margin-top: 8%;
+    background-color: #000;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.curso-completo {
+    color: #fff;
+    font-size: 18px;
+}
+
+.fa-backward {
+    padding: 20px;
+    font-size: 40px;
+}

@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('./fontes/idroid.otf') format(opentype);
+}
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #84e1ad;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 200px;
+    width: 100vw;
+    color: white;
+    background-image: linear-gradient(to top, #195935, #3cd983);
+}
+
+.header-title {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.header-subtitle {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 30px;
+    font-weight: lighter;
+
+}
+
+nav {
+    align-items: flex-start;
+    text-decoration: none;
+    color: white;  
+    margin-top: 30px;
+}
+
+main {
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    text-align: justify;
+    padding: 20px;
+}
+
+.main-title {
+    font-family: 'idroid';
+    font-size: 2rem;
+    color: #195935;
+    padding: 10px;
+}
+
+.main-title1 {
+    background-image: linear-gradient(to right, #c8ecd8, #fff);
+    font-family: 'idroid';
+    font-size: 1.5rem;
+    color: #195935;
+}
+
+.img-1 {
+    padding: 10px;
+}
+
+.main-title2 {
+    background-image: linear-gradient(to right, #c8ecd8, #fff);
+    font-family: 'idroid';
+    font-size: 1.5rem;
+    color: #195935;
+}
+
+.video {
+    background-color: #1a5c38;
+    padding: 30px;
+    text-align: center;
+}
+
+#video-android {
+    width: 850px;
+    height: 500px;
+}
+
+
+.content {
+    background-color: #c5ebd6;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+    
+}
+
+.container-title {
+    background-color: #2fa866;
+    display: block;
+    margin-top: 20px;
+    border-radius: 20px 20px 0 0;
+    padding: 10px;
+    color: #fff;
+    font-size: 0.8rem;
+
+}
+
+a {
+    display: inline-flex;
+}
+
+.lista {  
+    column-count: 2;
+    align-items: center;
+}
+
+footer {
+    background-color: #195935;
+    color: #fff;
+    height: 20px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
