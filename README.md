@@ -1,4 +1,4 @@
 # html-css
- Curso de HTML5 e CSS3
+ Curso de HTML5 e CSS3 (com o Curso em Vídeo)
 
-Teste
+Estou aprendendo a criar sites e a gerenciar meus repositórios.
